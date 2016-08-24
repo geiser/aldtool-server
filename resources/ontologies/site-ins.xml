@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE_INS filename="site-ins.xml" ontology_file="site.xml">
+<BASE_ONTLOGY>site.xml</BASE_ONTLOGY>
+<FILENAME_INS>site-ins.xml</FILENAME_INS>
+<INSTANCES>
+<INSTANCE class="price">
+<LABEL>price_1</LABEL>
+<POS x="810" y="145"/>
+<SUB_L label="price_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Yes">
+<LABEL>Yes_1</LABEL>
+<POS x="758" y="190"/>
+<SUB_L label="Yes_Ins" />
+</INSTANCE>
+<INSTANCE class="No">
+<LABEL>No_2</LABEL>
+<POS x="809" y="11"/>
+<SUB_L label="No_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="price">
+<LABEL>price_2</LABEL>
+<POS x="731" y="56"/>
+<SUB_L label="price_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="rural room">
+<LABEL>rural room_1</LABEL>
+<POS x="764" y="419"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="number_of_beds" class_constraint="number" rh_name="" value="15">
+<POS x="808" y="454"/>
+<PARENT_SLOT slot="room$number_of_beds" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="rate" class_constraint="price" rh_name="" value="price_1">
+<POS x="808" y="489"/>
+<PARENT_SLOT slot="room$rate2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/o" num="1" role="TV available" class_constraint="No" rh_name="" value="[[No]]">
+<POS x="808" y="524"/>
+<PARENT_SLOT slot="rural room$TV available2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot4" kind="p/o" num="1" role="Internet connection" class_constraint="No" rh_name="" value="No_2">
+<POS x="808" y="559"/>
+<PARENT_SLOT slot="rural room$Inetrnet connection2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="rural room_Ins" />
+</INSTANCE>
+<INSTANCE class="full room">
+<LABEL>full room_1</LABEL>
+<POS x="152" y="541"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="number_of_beds" class_constraint="number" rh_name="" value="12">
+<POS x="196" y="576"/>
+<PARENT_SLOT slot="room$number_of_beds" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="rate" class_constraint="price" rh_name="" value="price_2">
+<POS x="196" y="611"/>
+<PARENT_SLOT slot="room$rate2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/o" num="1" role="TV available" class_constraint="Yes" rh_name="" value="Yes_1">
+<POS x="196" y="646"/>
+<PARENT_SLOT slot="full room$TV available2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot4" kind="p/o" num="1" role="Internet connection" class_constraint="Yes" rh_name="" value="[[Yes]]">
+<POS x="196" y="681"/>
+<PARENT_SLOT slot="full room$Inetrnet connection2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="full room_Ins" />
+</INSTANCE>
+<INSTANCE class="location">
+<LABEL>location-cusco</LABEL>
+<POS x="467" y="166"/>
+<SUB_L label="location_Ins" />
+</INSTANCE>
+<INSTANCE class="Human">
+<LABEL>Human_2</LABEL>
+<POS x="386" y="311"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="Name" class_constraint="string" rh_name="" value="Claudia Ramos">
+<POS x="429" y="346"/>
+<PARENT_SLOT slot="Human$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="Age" class_constraint="number" rh_name="Older" value="23">
+<POS x="429" y="381"/>
+<PARENT_SLOT slot="Human$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1.." role="Name" class_constraint="string" rh_name="" value="Claudia Ramos de Guevara">
+<POS x="429" y="416"/>
+<PARENT_SLOT slot="Human$slot" />
+</SLOT>
+</SLOTS>
+<SUB_L label="Human_Ins" />
+</INSTANCE>
+<INSTANCE class="Human">
+<LABEL>Human_1</LABEL>
+<POS x="195" y="54"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="Name" class_constraint="string" rh_name="" value="Jorge Guevara">
+<POS x="238" y="89"/>
+<PARENT_SLOT slot="Human$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="Age" class_constraint="number" rh_name="Older" value="25">
+<POS x="238" y="124"/>
+<PARENT_SLOT slot="Human$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="0..1" role="Location of born" class_constraint="location" rh_name="" value="location-cusco">
+<POS x="238" y="159"/>
+<PARENT_SLOT slot="Human$slot3" />
+<SLOTS>
+<SLOT type="R2-1" label="slot1" kind="p/o" num="1" role="address" class_constraint="string" rh_name="" value="Av. Sol 123">
+<POS x="282" y="194"/>
+<PARENT_SLOT slot="Human$slot3%slot" />
+</SLOT>
+<SLOT type="R2-1" label="slot2" kind="p/o" num="1" role="city" class_constraint="city" rh_name="" value="city_cusco">
+<POS x="282" y="229"/>
+<PARENT_SLOT slot="Human$slot3%slot3" />
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<SUB_L label="Human_Ins" />
+</INSTANCE>
+<INSTANCE class="city">
+<LABEL>city_cusco</LABEL>
+<POS x="50" y="100"/>
+<SUB_L label="city_Ins" />
+</INSTANCE>
+</INSTANCES>
+</OE_FILE_INS>

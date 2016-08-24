@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="site.xml" ont_id="1187617980000ont" >
+<FILENAME_ONT>site.xml</FILENAME_ONT>
+<W_CONCEPTS hasAny="false">
+<CANVAS_SIZE w="3183" h="4035" x="800" y="1272" />
+<CONCEPT id="1187617980000_n0" >
+<LABEL>flight</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="440" y="260"/>
+<SLOTS>
+<SLOT id="1187617980000_s1" 
+ type="OR"  label="departure_city"  kind="p/o"  num="1"  role="departure_city"  class_constraint="city"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$departure_city"/>
+<SUB_L label="" def="" role_name="" class_const="city" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s2" 
+ type="OR"  label="arrival_city"  kind="p/o"  num="1"  role="arrival_city"  class_constraint="city"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$arrival_city"/>
+</SLOT>
+<SLOT id="1187617980000_s3" 
+ type="OR"  label="departure_airport"  kind="p/o"  num="1"  role="departure_airport"  class_constraint="airport"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$departure_station"/>
+</SLOT>
+<SLOT id="1187617980000_s4" 
+ type="OR"  label="arrival_airport"  kind="p/o"  num="1"  role="arrival_airport"  class_constraint="airport"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$arrival_station"/>
+</SLOT>
+<SLOT id="1187617980000_s5" 
+ type="OR"  label="departure_date"  kind="p/o"  num="1"  role="departure_date"  class_constraint="date"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$departure_date"/>
+</SLOT>
+<SLOT id="1187617980000_s6" 
+ type="OR"  label="arrival_date"  kind="p/o"  num="1"  role="arrival_date"  class_constraint="date"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$arrival_date"/>
+</SLOT>
+<SLOT id="1187617980000_s7" 
+ type="OR"  label="departure_time"  kind="p/o"  num="1"  role="departure_time"  class_constraint="time"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$departure_time"/>
+</SLOT>
+<SLOT id="1187617980000_s8" 
+ type="OR"  label="arrival_time"  kind="p/o"  num="1"  role="arrival_time"  class_constraint="time"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$arrival_time"/>
+</SLOT>
+<SLOT id="1187617980000_s9" 
+ type="OR"  label="prices_on_first_class"  kind="p/o"  num="1"  role="prices_on_first_class"  class_constraint="price"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$fare2"/>
+</SLOT>
+<SLOT id="1187617980000_s10" 
+ type="OR"  label="price_on_business_class"  kind="p/o"  num="1"  role="price_on_business_class "  class_constraint="price"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$fare2"/>
+</SLOT>
+<SLOT id="1187617980000_s11" 
+ type="OR"  label="price_on_economy_class"  kind="p/o"  num="1"  role="price_on_economy_class"  class_constraint="price"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="line$fare2"/>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n12" >
+<LABEL>train</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="683" y="80"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n13" >
+<LABEL>car</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="320" y="200"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n14" >
+<LABEL>ferry</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="580" y="103"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n15" >
+<LABEL>ship</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="720" y="40"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n16" >
+<LABEL>line</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="200" y="280"/>
+<DEF>★交通手段</DEF>
+<SLOTS>
+<SLOT id="1187617980000_s17" 
+ type="NW"  label="departure_city"  kind="p/o"  num="1.."  role="departure_city"  class_constraint="city"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="city" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s18" 
+ type="NW"  label="arrival_city"  kind="p/o"  num="1.."  role="arrival_city"  class_constraint="city"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="city" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s19" 
+ type="NW"  label="departure_station"  kind="p/o"  num="1.."  role="departure_station"  class_constraint="station"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="station" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s20" 
+ type="NW"  label="arrival_station"  kind="p/o"  num="1.."  role="arrival_station"  class_constraint="station"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="station" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s21" 
+ type="NW"  label="departure_date"  kind="p/o"  num="1.."  role="departure_date"  class_constraint="date"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="date" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s22" 
+ type="NW"  label="arrival_date"  kind="p/o"  num="1.."  role="arrival_date"  class_constraint="date"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="date" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s23" 
+ type="NW"  label="departure_time"  kind="p/o"  num="1.."  role="departure_time"  class_constraint="time"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="time" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s24" 
+ type="NW"  label="arrival_time"  kind="p/o"  num="1.."  role="arrival_time"  class_constraint="time"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="time" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s25" 
+ type="NW"  label="fare2"  kind="p/o"  num="0.."  role="fare"  class_constraint="price"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="price" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n26" >
+<LABEL>motorbike</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="240" y="220"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n27" >
+<LABEL>Plane</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="780" y="340"/>
+<DEF>★乗り物としての「飛行機」
+　→輸送機関と別！！</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n28" >
+<LABEL>transport_machine</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="720" y="260"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1187617980000_n29" >
+<LABEL>Boeing</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="880" y="360"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n30" >
+<LABEL>Airbus</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="860" y="420"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n31" >
+<LABEL>city</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="300" y="740"/>
+<SLOTS>
+<SLOT id="1187617980000_s32" 
+ type="NW"  label="station2"  kind="p/o"  num="0.."  role="station"  class_constraint="station"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="station" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s33" 
+ type="NW"  label="tourist_resort"  kind="p/o"  num="0.."  role="tourist_resort"  class_constraint="tourist_resort"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="tourist_resort" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1187617980000_n34" >
+<LABEL>location</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="660"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n35" >
+<LABEL>country</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="160" y="740"/>
+<SLOTS>
+<SLOT id="1187617980000_s36" 
+ type="NW"  label="city2"  kind="p/o"  num="0.."  role="city"  class_constraint="city"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="city" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n37" >
+<LABEL>area</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="800"/>
+<SLOTS>
+<SLOT id="1187617980000_s38" 
+ type="NW"  label="country2"  kind="p/o"  num="0.."  role="country"  class_constraint="country"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="country" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n39" >
+<LABEL>station</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="100" y="880"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n40" >
+<LABEL>airport</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="200" y="980"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n41" >
+<LABEL>port</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="180" y="980"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n42" >
+<LABEL>tourist_resort</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="60" y="940"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n43" >
+<LABEL>inside_transport</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1020" y="480"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1187617980000_n44" >
+<LABEL>underground</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1240" y="580"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n45" >
+<LABEL>city_bus</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1180" y="580"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n46" >
+<LABEL>taxi</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1160" y="620"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n47" >
+<LABEL>rental_car</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1080" y="620"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n48" >
+<LABEL>hotel</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="240" y="1260"/>
+<SLOTS>
+<SLOT id="1187617980000_s49" 
+ type="NW"  label="rank2"  kind="p/o"  num="1"  role="rank"  class_constraint="rank"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1187617980000_s50" 
+ type="NW"  label="address2"  kind="p/o"  num="1"  role="address"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s51" 
+ type="NW"  label="telephone_number"  kind="p/o"  num="1"  role="telephone_number"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s52" 
+ type="NW"  label="URL2"  kind="p/o"  num="1"  role="URL"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s53" 
+ type="NW"  label="capacity2"  kind="p/o"  num="1"  role="capacity"  class_constraint="number"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="number" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s54" 
+ type="NW"  label="number_of_rooms"  kind="p/o"  num="1"  role="number_of_rooms"  class_constraint="number"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="number" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s55" 
+ type="NW"  label="available_rooms"  kind="p/o"  num="0.."  role="available_rooms"  class_constraint="room"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="room" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s56" 
+ type="NW"  label="descriptions2"  kind="p/o"  num="1"  role="descriptions"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s57" 
+ type="NW"  label="dogs_allowed"  kind="p/o"  num="1"  role="dogs_allowed"  class_constraint="Yes | No"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Yes | No" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s58" 
+ type="NW"  label="distance_to_the_beach"  kind="p/o"  num="1"  role="distance_to_the_beach"  class_constraint="distance"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1187617980000_s59" 
+ type="NW"  label="distance_to_skiing"  kind="p/o"  num="1"  role="distance_to_skiing"  class_constraint="distance"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n60" >
+<LABEL>loging</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="60" y="1320"/>
+<SLOTS>
+<SLOT id="1187617980000_s61" 
+ type="NW"  label="role"  kind="p/o"  num="1"  role="role"  class_constraint="city"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="city" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s62" 
+ type="NW"  label="role2"  kind="p/o"  num="1"  role="role"  class_constraint="hotel"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1187617980000_s63" 
+ type="NW"  label="arrival_date"  kind="p/o"  num="1"  role="arrival_date"  class_constraint="date"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1187617980000_s64" 
+ type="NW"  label="departure_date"  kind="p/o"  num="1"  role="departure_date"  class_constraint="date"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n65" >
+<LABEL>travelling</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="440" y="940"/>
+<SLOTS>
+<SLOT id="1187617980000_s66" 
+ type="NW"  label="traveller2"  kind="p/o"  num="1"  role="traveller"  class_constraint="Human"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="person" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s67" 
+ type="NW"  label="trip2"  kind="p/o"  num="0.."  role="trip"  class_constraint="trip"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="trip" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s68" 
+ type="NW"  label="loging2"  kind="p/o"  num="0.."  role="loging"  class_constraint="loging"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="loging" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n69" >
+<LABEL>trip</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="1046"/>
+<SLOTS>
+<SLOT id="1187617980000_s70" 
+ type="NW"  label="source2"  kind="p/o"  num="1"  role="source"  class_constraint="city"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT id="1187617980000_s71" 
+ type="NW"  label="destination2"  kind="p/o"  num="1"  role="destination"  class_constraint="city"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1187617980000_s72" 
+ type="NW"  label="tourist_route2"  kind="p/o"  num="0.."  role="tourist_route"  class_constraint="tourist_resort"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="tourist_resort" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s73" 
+ type="NW"  label="means_of_transportation"  kind="p/o"  num="1"  role="means_of_transportation"  class_constraint="means_of_transportation"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1187617980000_n74" >
+<LABEL>public_transport</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="360" y="20"/>
+<SLOTS>
+<SLOT id="1187617980000_s75" 
+ type="OR"  label="route2"  kind="p/o"  num="1"  role="route"  class_constraint="line"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="means_of_transportation$route2"/>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1187617980000_n76" >
+<LABEL>route</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="260"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n77" >
+<LABEL>means_of_transportation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="20"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1187617980000_s78" 
+ type="NW"  label="route2"  kind="p/o"  num="1"  role="route"  class_constraint="route"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1187617980000_s79" 
+ type="NW"  label="transport_machine"  kind="p/o"  num="1"  role="transport_machine"  class_constraint="transport_machine"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n80" >
+<LABEL>private_transport</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="160" y="140"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n81" >
+<LABEL>plane</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="440" y="140"/>
+<SLOTS>
+<SLOT id="1187617980000_s82" 
+ type="OR"  label="route2"  kind="p/o"  num="1"  role="route"  class_constraint="flight"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="means_of_transportation$route2"/>
+<SUB_L label="" def="" role_name="" class_const="flight" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s83" 
+ type="OR"  label="transport_machine"  kind="p/o"  num="1"  role="transport_machine"  class_constraint="Plane"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="means_of_transportation$transport_machine"/>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n84" >
+<LABEL>free_route</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="420"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n85" >
+<LABEL>rank</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="580" y="1340"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n86" >
+<LABEL>1star</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="700" y="1360"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n87" >
+<LABEL>2star</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="700" y="1400"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n88" >
+<LABEL>3star</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="700" y="1420"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n89" >
+<LABEL>4star</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="700" y="1460"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n90" >
+<LABEL>5star</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="700" y="1500"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1187617980000_n92" >
+<LABEL>distance</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="60" y="1800"/>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1187617980000_n93" >
+<LABEL>room</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="360" y="1840"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1187617980000_s94" 
+ type="NW"  label="number_of_beds"  kind="p/o"  num="1"  role="number_of_beds"  class_constraint="number"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="number" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s95" 
+ type="NW"  label="rate2"  kind="p/o"  num="1"  role="rate"  class_constraint="price"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="price" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s96" 
+ type="NW"  label="TV available2"  kind="p/o"  num="1"  role="TV available"  class_constraint="Yes | No"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Yes | No" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s97" 
+ type="NW"  label="Inetrnet connection2"  kind="p/o"  num="1"  role="Internet connection"  class_constraint="Yes | No"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Yes | No" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1446519463000_s97" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="number of guests"  class_constraint="number"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="number" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1446519463000_rc98" label="sameAs" ><POS x="595" y="1953"/>
+<ARC label="class">room$number_of_beds</ARC>
+<ARC label="class">room$slot</ARC>
+</R_CONST>
+<R_CONST id="1447701926000_rc99" label="Depends on" ><POS x="599" y="1970"/>
+<ARC label="source">room$TV available2</ARC>
+<ARC label="target">room$Inetrnet connection2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1187617980000_n98" >
+<LABEL>price</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="60" y="1860"/>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1187617980000_n103" >
+<LABEL>Human</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="915" y="1181"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1187617980000_s104" 
+ type="NW"  label="slot"  kind="a/o"  num="1.."  role="Name"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s105" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="Age"  class_constraint="number"  rh_name="Older"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="number" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s106" 
+ type="NW"  label="slot3"  kind="a/o"  num="0..1"  role="Location of born"  class_constraint="location"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1187617980000_s107" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="address"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s108" 
+ type="R2-1"  label="slot3"  kind="p/o"  num="1"  role="city"  class_constraint="city"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="city" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1187617980000_s109" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="country"  class_constraint="country"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="country" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="location" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1435860083000_s110" 
+ type="NW"  label="slot5"  kind="a/o"  num="0..1"  role="Date of born"  class_constraint="date"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="date" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1435860083000_s111" 
+ type="NW"  label="slot6"  kind="a/o"  num="0..1"  role="Time of born"  class_constraint="time"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="time" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1435860083000_s112" 
+ type="NW"  label="slot7"  kind="a/o"  num="0..1"  role="Is dead"  class_constraint="Yes | No"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Yes | No" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1435956365000_n112" >
+<LABEL>Child</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1149" y="880"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1435956365000_n113" >
+<LABEL>Yes</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="200" y="1923"/>
+</CONCEPT>
+<CONCEPT id="1435956365000_n114" >
+<LABEL>No</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="220" y="1983"/>
+<PART_TREE>close</PART_TREE>
+</CONCEPT>
+<CONCEPT id="1446518456000_n112" >
+<LABEL>Adult</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1107" y="774"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1446518782000_n112" >
+<LABEL>rural room</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="680" y="1740"/>
+<SLOTS>
+<SLOT id="1446518782000_s113" 
+ type="OR"  label="TV available2"  kind="p/o"  num="1"  role="TV available"  class_constraint="No"  rh_name=""  value="No" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="room$TV available2"/>
+<SUB_L label="" def="" role_name="" class_const="No" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1446518782000_s114" 
+ type="OR"  label="Inetrnet connection2"  kind="p/o"  num="1"  role="Internet connection"  class_constraint="No"  rh_name=""  value="No" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="room$Inetrnet connection2"/>
+<SUB_L label="" def="" role_name="" class_const="No" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1446518782000_n115" >
+<LABEL>full room</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="680" y="1886"/>
+<SLOTS>
+<SLOT id="1446518782000_s116" 
+ type="OR"  label="TV available2"  kind="p/o"  num="1"  role="TV available"  class_constraint="Yes"  rh_name=""  value="#Yes" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="room$TV available2"/>
+<SUB_L label="" def="" role_name="" class_const="Yes" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1446518782000_s117" 
+ type="OR"  label="Inetrnet connection2"  kind="p/o"  num="1"  role="Internet connection"  class_constraint="Yes"  rh_name=""  value="#Yes" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="room$Inetrnet connection2"/>
+<SUB_L label="" def="" role_name="" class_const="Yes" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1187617980000_isa114" parent="transport_machine" child="Plane" />
+<ISA id="1187617980000_isa115" parent="Plane" child="Boeing" />
+<ISA id="1187617980000_isa116" parent="Plane" child="Airbus" />
+<ISA id="1187617980000_isa117" parent="location" child="city" />
+<ISA id="1187617980000_isa118" parent="location" child="country" />
+<ISA id="1187617980000_isa119" parent="location" child="area" />
+<ISA id="1187617980000_isa120" parent="location" child="station" />
+<ISA id="1187617980000_isa121" parent="station" child="airport" />
+<ISA id="1187617980000_isa122" parent="station" child="port" />
+<ISA id="1187617980000_isa123" parent="location" child="tourist_resort" />
+<ISA id="1187617980000_isa124" parent="inside_transport" child="underground" />
+<ISA id="1187617980000_isa125" parent="inside_transport" child="city_bus" />
+<ISA id="1187617980000_isa126" parent="inside_transport" child="taxi" />
+<ISA id="1187617980000_isa127" parent="inside_transport" child="rental_car" />
+<ISA id="1187617980000_isa128" parent="line" child="flight" />
+<ISA id="1187617980000_isa129" parent="route" child="line" />
+<ISA id="1187617980000_isa130" parent="means_of_transportation" child="public_transport" />
+<ISA id="1187617980000_isa131" parent="means_of_transportation" child="private_transport" />
+<ISA id="1187617980000_isa132" parent="public_transport" child="plane" />
+<ISA id="1187617980000_isa133" parent="public_transport" child="train" />
+<ISA id="1187617980000_isa134" parent="public_transport" child="ferry" />
+<ISA id="1187617980000_isa135" parent="public_transport" child="ship" />
+<ISA id="1187617980000_isa136" parent="private_transport" child="car" />
+<ISA id="1187617980000_isa137" parent="private_transport" child="motorbike" />
+<ISA id="1187617980000_isa138" parent="route" child="free_route" />
+<ISA id="1187617980000_isa139" parent="rank" child="1star" />
+<ISA id="1187617980000_isa140" parent="rank" child="2star" />
+<ISA id="1187617980000_isa141" parent="rank" child="3star" />
+<ISA id="1187617980000_isa142" parent="rank" child="4star" />
+<ISA id="1187617980000_isa143" parent="rank" child="5star" />
+<ISA id="1435956365000_isa145" parent="Human" child="Child" />
+<ISA id="1446518456000_isa146" parent="Human" child="Adult" />
+<ISA id="1446518782000_isa150" parent="room" child="rural room" />
+<ISA id="1446518782000_isa151" parent="room" child="full room" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="3563" h="4386" />
+<CONCEPT id="1446519463000_n154" >
+<LABEL>Depends on</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="288" y="225"/>
+<SLOTS>
+<SLOT id="1446519463000_s155" 
+ type="NW"  label="slot"  kind="p/i"  num="1"  role="source"  class_constraint="Yes | No"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Yes | No" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1446519463000_s156" 
+ type="NW"  label="slot2"  kind="p/i"  num="1"  role="target"  class_constraint="Yes | No"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Yes | No" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="612.0" h="792.0" iw="468.0" ih="648.0" ix="72.0" iy="72.0" />
+<PRINTER_SETTINGS orientation="1" printername="Hewlett-Packard-HP-LaserJet-P2055dn" />
+</PRINTER>
+</OE_FILE>

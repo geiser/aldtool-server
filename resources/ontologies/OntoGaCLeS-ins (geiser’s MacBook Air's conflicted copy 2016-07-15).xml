@@ -1,0 +1,3104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE_INS filename="OntoGaCLeS-ins.xml" ontology_file="OntoGaCLeS.xml">
+<BASE_ONTLOGY>OntoGaCLeS.xml</BASE_ONTLOGY>
+<FILENAME_INS>OntoGaCLeS-ins.xml</FILENAME_INS>
+<INSTANCES>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_1</LABEL>
+<POS x="338" y="32"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_2</LABEL>
+<POS x="355" y="79"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Skill for reflection">
+<LABEL>Skill for reflection_1</LABEL>
+<POS x="39" y="165"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_3">
+<POS x="82" y="200"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Skill for reflection_Ins" />
+</INSTANCE>
+<INSTANCE class="Basic cognitive skill">
+<LABEL>Basic cognitive skill_1</LABEL>
+<POS x="42" y="274"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_6">
+<POS x="85" y="309"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Basic cognitive skill_Ins" />
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_3</LABEL>
+<POS x="281" y="255"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Psychomotor domain">
+<LABEL>Psychomotor domain_1</LABEL>
+<POS x="560" y="135"/>
+<SUB_L label="Psychomotor domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Skill for self-regulation">
+<LABEL>Skill for self-regulation_2</LABEL>
+<POS x="531" y="264"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_5">
+<POS x="574" y="299"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Skill for self-regulation_Ins" />
+</INSTANCE>
+<INSTANCE class="Motor skill">
+<LABEL>Motor skill_1</LABEL>
+<POS x="106" y="382"/>
+<SLOTS>
+<SLOT type="OR" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Psychomotor domain" rh_name="" value="Psychomotor domain_1">
+<POS x="149" y="417"/>
+<PARENT_SLOT slot="Motor skill$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Motor skill_Ins" />
+</INSTANCE>
+<INSTANCE class="Skill for self-regulation">
+<LABEL>Skill for self-regulation_1</LABEL>
+<POS x="491" y="352"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_4">
+<POS x="534" y="387"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Skill for self-regulation_Ins" />
+</INSTANCE>
+<INSTANCE class="Cross-domain">
+<LABEL>Cross-domain_2</LABEL>
+<POS x="519" y="37"/>
+<SUB_L label="Cross-domain_Ins" />
+</INSTANCE>
+<INSTANCE class="Cross-domain">
+<LABEL>Cross-domain_1</LABEL>
+<POS x="171" y="17"/>
+<SUB_L label="Cross-domain_Ins" />
+</INSTANCE>
+<INSTANCE class="Affective domain">
+<LABEL>Affective domain_1</LABEL>
+<POS x="327" y="313"/>
+<SUB_L label="Affective domain_Ins" />
+</INSTANCE>
+<INSTANCE class="Basic cognitive skill">
+<LABEL>Basic cognitive skill_3</LABEL>
+<POS x="955" y="91"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_8">
+<POS x="998" y="126"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Basic cognitive skill_Ins" />
+</INSTANCE>
+<INSTANCE class="Psychomotor domain">
+<LABEL>Psychomotor domain_2</LABEL>
+<POS x="864" y="245"/>
+<SUB_L label="Psychomotor domain_Ins" />
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_8</LABEL>
+<POS x="778" y="88"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_7</LABEL>
+<POS x="578" y="79"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_6</LABEL>
+<POS x="689" y="43"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_4</LABEL>
+<POS x="878" y="39"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_5</LABEL>
+<POS x="1057" y="44"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Skill">
+<LABEL>Skill_2</LABEL>
+<POS x="1154" y="421"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_2">
+<POS x="1197" y="456"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Skill_Ins" />
+</INSTANCE>
+<INSTANCE class="Skill">
+<LABEL>Skill_3</LABEL>
+<POS x="910" y="474"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_3">
+<POS x="953" y="509"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Skill_Ins" />
+</INSTANCE>
+<INSTANCE class="Cognitive domain">
+<LABEL>Cognitive domain_1</LABEL>
+<POS x="1309" y="583"/>
+<SUB_L label="Cognitive domain_Ins" />
+</INSTANCE>
+<INSTANCE class="Psychomotor domain">
+<LABEL>Psychomotor domain_3</LABEL>
+<POS x="703" y="494"/>
+<SUB_L label="Psychomotor domain_Ins" />
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_9</LABEL>
+<POS x="173" y="95"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_3</LABEL>
+<POS x="573" y="215"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_2</LABEL>
+<POS x="1319" y="289"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_2</LABEL>
+<POS x="1361" y="357"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_1</LABEL>
+<POS x="1132" y="290"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_1</LABEL>
+<POS x="1340" y="197"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="mind">
+<LABEL>mind_1</LABEL>
+<POS x="1400" y="440"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="function" class_constraint="decision making" rh_name="" value="decision making_1">
+<POS x="1443" y="475"/>
+<PARENT_SLOT slot="mind$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="mind_Ins" />
+</INSTANCE>
+<INSTANCE class="intention">
+<LABEL>intention_1</LABEL>
+<POS x="1433" y="248"/>
+<SUB_L label="intention_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="substance">
+<LABEL>substance_1</LABEL>
+<POS x="1214" y="373"/>
+<SUB_L label="substance_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="location">
+<LABEL>location_1</LABEL>
+<POS x="780" y="338"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_2">
+<POS x="823" y="373"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="value" class_constraint="p-space" rh_name="" value="">
+<POS x="823" y="408"/>
+<PARENT_SLOT slot="location$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="location_Ins" />
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_3</LABEL>
+<POS x="1319" y="698"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="1362" y="733"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="1362" y="768"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="1359" y="803"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+</INSTANCE>
+<INSTANCE class="e-time">
+<LABEL>e-time_1</LABEL>
+<POS x="1295" y="78"/>
+<SUB_L label="e-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_2</LABEL>
+<POS x="1196" y="870"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="1239" y="905"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="1239" y="940"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="1236" y="975"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+</INSTANCE>
+<INSTANCE class="Skill">
+<LABEL>Skill_1</LABEL>
+<POS x="591" y="701"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_1">
+<POS x="634" y="736"/>
+<PARENT_SLOT slot="What to learn$slot" />
+</SLOT>
+</SLOTS>
+<SUB_L label="Skill_Ins" />
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_1</LABEL>
+<POS x="744" y="588"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="787" y="623"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="787" y="658"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="784" y="693"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+</INSTANCE>
+<INSTANCE class="decision making">
+<LABEL>decision making_1</LABEL>
+<POS x="1086" y="617"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_3">
+<POS x="1129" y="652"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="decision making_Ins" />
+</INSTANCE>
+<INSTANCE class="s-time">
+<LABEL>s-time_1</LABEL>
+<POS x="741" y="882"/>
+<SUB_L label="s-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Time interval">
+<LABEL>Time interval_1</LABEL>
+<POS x="156" y="933"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="starting time" class_constraint="Clock time" rh_name="" value="Clock time_1">
+<POS x="200" y="968"/>
+<PARENT_SLOT slot="Time interval$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="ending time" class_constraint="Clock time" rh_name="" value="Clock time_2">
+<POS x="200" y="1003"/>
+<PARENT_SLOT slot="Time interval$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Time interval_Ins" />
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_3</LABEL>
+<POS x="253" y="640"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_4</LABEL>
+<POS x="253" y="640"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_5</LABEL>
+<POS x="253" y="675"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="s-time">
+<LABEL>s-time_2</LABEL>
+<POS x="180" y="735"/>
+<SUB_L label="s-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_6</LABEL>
+<POS x="408" y="765"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_8</LABEL>
+<POS x="527" y="813"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Human">
+<LABEL>Human_1</LABEL>
+<POS x="74" y="798"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="124" y="798"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="substance_2">
+<POS x="124" y="798"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1" role="intention" class_constraint="intention" rh_name="" value="intention_2">
+<POS x="124" y="798"/>
+<PARENT_SLOT slot="agent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="p/o" num="1" role="mind" class_constraint="mind" rh_name="" value="mind_2">
+<POS x="124" y="798"/>
+<PARENT_SLOT slot="agent$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot5" kind="a/o" num="1" role="NoOfAgent" class_constraint="Integer" rh_name="" value="Integer_1">
+<POS x="124" y="798"/>
+<PARENT_SLOT slot="singleton agent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot6" kind="p/o" num="1" role="body" class_constraint="functional" rh_name="" value="functional_1">
+<POS x="124" y="798"/>
+<PARENT_SLOT slot="singleton agent$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Human_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="location">
+<LABEL>location_2</LABEL>
+<POS x="333" y="828"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_5">
+<POS x="383" y="828"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="value" class_constraint="p-space" rh_name="" value="">
+<POS x="383" y="828"/>
+<PARENT_SLOT slot="location$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="location_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="generic quality">
+<LABEL>generic quality_2</LABEL>
+<POS x="59" y="486"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_4">
+<POS x="109" y="486"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="generic quality_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_4</LABEL>
+<POS x="406" y="482"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Time interval">
+<LABEL>Time interval_2</LABEL>
+<POS x="11" y="545"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="starting time" class_constraint="Clock time" rh_name="" value="Clock time_3">
+<POS x="61" y="545"/>
+<PARENT_SLOT slot="Time interval$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="ending time" class_constraint="Clock time" rh_name="" value="Clock time_4">
+<POS x="61" y="545"/>
+<PARENT_SLOT slot="Time interval$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Time interval_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_8</LABEL>
+<POS x="0" y="651"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="50" y="651"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="50" y="651"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="50" y="651"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="e-time">
+<LABEL>e-time_3</LABEL>
+<POS x="114" y="599"/>
+<SUB_L label="e-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="functional">
+<LABEL>functional_1</LABEL>
+<POS x="410" y="551"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="460" y="551"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="">
+<POS x="460" y="551"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="function" class_constraint="function" rh_name="" value="function_1">
+<POS x="460" y="551"/>
+<PARENT_SLOT slot="functional$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="a/o" num="1" role="n or a" class_constraint="natural/artificial_2" rh_name="" value="natural/artificial_2_1">
+<POS x="460" y="551"/>
+<PARENT_SLOT slot="functional$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="functional_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="natural/artificial_2">
+<LABEL>natural/artificial_2_1</LABEL>
+<POS x="519" y="628"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_8">
+<POS x="569" y="628"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="natural/artificial_2_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Integer">
+<LABEL>Integer_1</LABEL>
+<POS x="218" y="828"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="numerator" class_constraint="Integer" rh_name="" value="">
+<POS x="268" y="828"/>
+<PARENT_SLOT slot="Rational number$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="denominator" class_constraint="Integer" rh_name="" value="">
+<POS x="268" y="828"/>
+<PARENT_SLOT slot="Rational number$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Integer_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_7</LABEL>
+<POS x="447" y="684"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="decision making">
+<LABEL>decision making_2</LABEL>
+<POS x="775" y="782"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_6">
+<POS x="825" y="782"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="decision making_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="mind">
+<LABEL>mind_2</LABEL>
+<POS x="311" y="695"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="function" class_constraint="decision making" rh_name="" value="decision making_2">
+<POS x="361" y="695"/>
+<PARENT_SLOT slot="mind$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="mind_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="intention">
+<LABEL>intention_2</LABEL>
+<POS x="948" y="867"/>
+<SUB_L label="intention_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="substance">
+<LABEL>substance_2</LABEL>
+<POS x="284" y="794"/>
+<SUB_L label="substance_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_7</LABEL>
+<POS x="84" y="714"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="134" y="714"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="134" y="714"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="134" y="714"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_6</LABEL>
+<POS x="166" y="670"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="216" y="670"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="216" y="670"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="216" y="670"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="e-time">
+<LABEL>e-time_2</LABEL>
+<POS x="229" y="575"/>
+<SUB_L label="e-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="action">
+<LABEL>action_1</LABEL>
+<POS x="980" y="1348"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="generic quality_1">
+<POS x="1023" y="1383"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="Time interval_1">
+<POS x="1023" y="1418"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="location" class_constraint="location" rh_name="" value="location_1">
+<POS x="1023" y="1453"/>
+<PARENT_SLOT slot="process_1$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot4" kind="p/i" num="1.." role="doer" class_constraint="agent" rh_name="" value="agent_1">
+<POS x="1020" y="1488"/>
+<PARENT_SLOT slot="action$slot2" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="initial state" class_constraint="state" rh_name="" value="state_1">
+<POS x="1063" y="1523"/>
+<PARENT_SLOT slot="action$slot2%slot" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="initial time" class_constraint="s-time" rh_name="" value="s-time_1">
+<POS x="1106" y="1558"/>
+<PARENT_SLOT slot="action$slot2%slot%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT type="OR" label="slot2" kind="a/o" num="1" role="middle state" class_constraint="state" rh_name="" value="state_2">
+<POS x="1063" y="1593"/>
+<PARENT_SLOT slot="action$slot2%slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot3" kind="a/o" num="1" role="terminal state" class_constraint="state" rh_name="" value="state_3">
+<POS x="1063" y="1628"/>
+<PARENT_SLOT slot="action$slot2%slot3" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="terminal time" class_constraint="e-time" rh_name="" value="e-time_1">
+<POS x="1106" y="1663"/>
+<PARENT_SLOT slot="action$slot2%slot3%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<SUB_L label="action_Ins" />
+</INSTANCE>
+<INSTANCE class="agent">
+<LABEL>agent_1</LABEL>
+<POS x="1247" y="1104"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="1290" y="1139"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="substance_1">
+<POS x="1291" y="1174"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1" role="intention" class_constraint="intention" rh_name="" value="intention_1">
+<POS x="1291" y="1209"/>
+<PARENT_SLOT slot="agent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="p/o" num="1" role="mind" class_constraint="mind" rh_name="" value="mind_1">
+<POS x="1291" y="1244"/>
+<PARENT_SLOT slot="agent$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="agent_Ins" />
+</INSTANCE>
+<INSTANCE class="Domain knowledge">
+<LABEL>Domain knowledge_1</LABEL>
+<POS x="785" y="1126"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_9">
+<POS x="828" y="1161"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="of what" class_constraint="Knowledge" rh_name="" value="">
+<POS x="829" y="1196"/>
+<PARENT_SLOT slot="Domain knowledge$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1" role="content" class_constraint="Domain knowledge content" rh_name="" value="Domain knowledge content_1">
+<POS x="829" y="1231"/>
+<PARENT_SLOT slot="Domain knowledge$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Domain knowledge_Ins" />
+</INSTANCE>
+<INSTANCE class="Domain knowledge content">
+<LABEL>Domain knowledge content_1</LABEL>
+<POS x="888" y="952"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="used for" class_constraint="action" rh_name="" value="action_1">
+<POS x="931" y="987"/>
+<PARENT_SLOT slot="representation-primary$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Domain knowledge content_Ins" />
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_10</LABEL>
+<POS x="173" y="895"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="s-time">
+<LABEL>s-time_1</LABEL>
+<POS x="333" y="985"/>
+<SUB_L label="s-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_11</LABEL>
+<POS x="573" y="1015"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Domain knowledge">
+<LABEL>Domain knowledge_2</LABEL>
+<POS x="93" y="1334"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_10">
+<POS x="136" y="1369"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="of what" class_constraint="Knowledge" rh_name="" value="Knowledge_1">
+<POS x="137" y="1404"/>
+<PARENT_SLOT slot="Domain knowledge$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1" role="content" class_constraint="Domain knowledge content" rh_name="" value="Domain knowledge content_2">
+<POS x="137" y="1439"/>
+<PARENT_SLOT slot="Domain knowledge$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Domain knowledge_Ins" />
+</INSTANCE>
+<INSTANCE class="Knowledge">
+<LABEL>Knowledge_1</LABEL>
+<POS x="320" y="1166"/>
+<SUB_L label="Knowledge_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Domain knowledge content">
+<LABEL>Domain knowledge content_2</LABEL>
+<POS x="296" y="1529"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="used for" class_constraint="action" rh_name="" value="action_2">
+<POS x="339" y="1564"/>
+<PARENT_SLOT slot="representation-primary$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Domain knowledge content_Ins" />
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_4</LABEL>
+<POS x="603" y="1330"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="646" y="1365"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="646" y="1400"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="643" y="1435"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+</INSTANCE>
+<INSTANCE class="decision making">
+<LABEL>decision making_3</LABEL>
+<POS x="504" y="1152"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_11">
+<POS x="547" y="1187"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="decision making_Ins" />
+</INSTANCE>
+<INSTANCE class="location">
+<LABEL>location_3</LABEL>
+<POS x="370" y="1451"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_10">
+<POS x="420" y="1451"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="value" class_constraint="p-space" rh_name="" value="">
+<POS x="420" y="1451"/>
+<PARENT_SLOT slot="location$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="location_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_10</LABEL>
+<POS x="890" y="1028"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_6</LABEL>
+<POS x="948" y="1083"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_5</LABEL>
+<POS x="715" y="990"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Time interval">
+<LABEL>Time interval_3</LABEL>
+<POS x="425" y="1065"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="starting time" class_constraint="Clock time" rh_name="" value="Clock time_5">
+<POS x="475" y="1065"/>
+<PARENT_SLOT slot="Time interval$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="ending time" class_constraint="Clock time" rh_name="" value="Clock time_6">
+<POS x="475" y="1065"/>
+<PARENT_SLOT slot="Time interval$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Time interval_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="generic quality">
+<LABEL>generic quality_3</LABEL>
+<POS x="437" y="1343"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_9">
+<POS x="487" y="1343"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="generic quality_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="agent">
+<LABEL>agent_2</LABEL>
+<POS x="393" y="879"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="443" y="879"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="substance_3">
+<POS x="443" y="879"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1" role="intention" class_constraint="intention" rh_name="" value="intention_3">
+<POS x="443" y="879"/>
+<PARENT_SLOT slot="agent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="p/o" num="1" role="mind" class_constraint="mind" rh_name="" value="mind_3">
+<POS x="443" y="879"/>
+<PARENT_SLOT slot="agent$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="agent_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="e-time">
+<LABEL>e-time_1</LABEL>
+<POS x="275" y="1050"/>
+<SUB_L label="e-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_10</LABEL>
+<POS x="709" y="1286"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="759" y="1286"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="759" y="1286"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="759" y="1286"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_9</LABEL>
+<POS x="1417" y="1422"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="1467" y="1422"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="1467" y="1422"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="1467" y="1422"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="generic quality">
+<LABEL>generic quality_1</LABEL>
+<POS x="548" y="945"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_1">
+<POS x="591" y="980"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="generic quality_Ins" />
+</INSTANCE>
+<INSTANCE class="function">
+<LABEL>function_1</LABEL>
+<POS x="581" y="850"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_7">
+<POS x="631" y="850"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="function_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_9</LABEL>
+<POS x="1298" y="1316"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="mind">
+<LABEL>mind_3</LABEL>
+<POS x="1427" y="1321"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="function" class_constraint="decision making" rh_name="" value="decision making_3">
+<POS x="1477" y="1321"/>
+<PARENT_SLOT slot="mind$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="mind_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="intention">
+<LABEL>intention_3</LABEL>
+<POS x="1461" y="1263"/>
+<SUB_L label="intention_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="substance">
+<LABEL>substance_3</LABEL>
+<POS x="1109" y="1273"/>
+<SUB_L label="substance_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_11</LABEL>
+<POS x="416" y="988"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="466" y="988"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="466" y="988"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="466" y="988"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_5</LABEL>
+<POS x="41" y="958"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="91" y="958"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="91" y="958"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="91" y="958"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="generic quality">
+<LABEL>generic quality_4</LABEL>
+<POS x="173" y="1145"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_12">
+<POS x="223" y="1145"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="generic quality_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_12</LABEL>
+<POS x="253" y="1155"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Time interval">
+<LABEL>Time interval_4</LABEL>
+<POS x="173" y="1180"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="starting time" class_constraint="Clock time" rh_name="" value="Clock time_7">
+<POS x="223" y="1180"/>
+<PARENT_SLOT slot="Time interval$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="ending time" class_constraint="Clock time" rh_name="" value="Clock time_8">
+<POS x="223" y="1180"/>
+<PARENT_SLOT slot="Time interval$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Time interval_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_7</LABEL>
+<POS x="253" y="1190"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_8</LABEL>
+<POS x="253" y="1190"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="location">
+<LABEL>location_4</LABEL>
+<POS x="173" y="1215"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_13">
+<POS x="223" y="1215"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="value" class_constraint="p-space" rh_name="" value="">
+<POS x="223" y="1215"/>
+<PARENT_SLOT slot="location$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="location_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_13</LABEL>
+<POS x="253" y="1225"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="s-time">
+<LABEL>s-time_2</LABEL>
+<POS x="180" y="1285"/>
+<SUB_L label="s-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_12</LABEL>
+<POS x="180" y="1285"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_13</LABEL>
+<POS x="180" y="1285"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="e-time">
+<LABEL>e-time_2</LABEL>
+<POS x="180" y="1285"/>
+<SUB_L label="e-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_14</LABEL>
+<POS x="180" y="1285"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_15</LABEL>
+<POS x="180" y="1285"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="e-time">
+<LABEL>e-time_3</LABEL>
+<POS x="180" y="1285"/>
+<SUB_L label="e-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_16</LABEL>
+<POS x="180" y="1285"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="230" y="1285"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Human">
+<LABEL>Human_2</LABEL>
+<POS x="168" y="1285"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="218" y="1285"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="substance_4">
+<POS x="218" y="1285"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1" role="intention" class_constraint="intention" rh_name="" value="intention_4">
+<POS x="218" y="1285"/>
+<PARENT_SLOT slot="agent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="p/o" num="1" role="mind" class_constraint="mind" rh_name="" value="mind_4">
+<POS x="218" y="1285"/>
+<PARENT_SLOT slot="agent$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot5" kind="a/o" num="1" role="NoOfAgent" class_constraint="Integer" rh_name="" value="Integer_2">
+<POS x="218" y="1285"/>
+<PARENT_SLOT slot="singleton agent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot6" kind="p/o" num="1" role="body" class_constraint="functional" rh_name="" value="functional_2">
+<POS x="218" y="1285"/>
+<PARENT_SLOT slot="singleton agent$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Human_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="substance">
+<LABEL>substance_4</LABEL>
+<POS x="248" y="1295"/>
+<SUB_L label="substance_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="intention">
+<LABEL>intention_4</LABEL>
+<POS x="248" y="1295"/>
+<SUB_L label="intention_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="mind">
+<LABEL>mind_4</LABEL>
+<POS x="248" y="1295"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="function" class_constraint="decision making" rh_name="" value="decision making_4">
+<POS x="298" y="1295"/>
+<PARENT_SLOT slot="mind$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="mind_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="decision making">
+<LABEL>decision making_4</LABEL>
+<POS x="328" y="1305"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_14">
+<POS x="378" y="1305"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="decision making_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_14</LABEL>
+<POS x="408" y="1315"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Integer">
+<LABEL>Integer_2</LABEL>
+<POS x="248" y="1295"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="numerator" class_constraint="Integer" rh_name="" value="">
+<POS x="298" y="1295"/>
+<PARENT_SLOT slot="Rational number$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="denominator" class_constraint="Integer" rh_name="" value="">
+<POS x="298" y="1295"/>
+<PARENT_SLOT slot="Rational number$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Integer_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="functional">
+<LABEL>functional_2</LABEL>
+<POS x="248" y="1295"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="298" y="1295"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="">
+<POS x="298" y="1295"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="function" class_constraint="function" rh_name="" value="function_2">
+<POS x="298" y="1295"/>
+<PARENT_SLOT slot="functional$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="a/o" num="1" role="n or a" class_constraint="natural/artificial_2" rh_name="" value="natural/artificial_2_2">
+<POS x="298" y="1295"/>
+<PARENT_SLOT slot="functional$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="functional_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="function">
+<LABEL>function_2</LABEL>
+<POS x="328" y="1305"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_15">
+<POS x="378" y="1305"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="function_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_15</LABEL>
+<POS x="408" y="1315"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="natural/artificial_2">
+<LABEL>natural/artificial_2_2</LABEL>
+<POS x="328" y="1305"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_16">
+<POS x="378" y="1305"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="natural/artificial_2_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_16</LABEL>
+<POS x="408" y="1315"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Knowledge type">
+<LABEL>Knowledge type_1</LABEL>
+<POS x="180" y="1320"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="of what" class_constraint="Knowledge" rh_name="" value="Knowledge_2">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="Knowledge type$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot2" kind="a/o" num="1" role="learning domain" class_constraint="Cognitive domain" rh_name="" value="Cognitive domain_2">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="Knowledge type$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Knowledge type_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Knowledge">
+<LABEL>Knowledge_2</LABEL>
+<POS x="260" y="1330"/>
+<SUB_L label="Knowledge_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Cognitive domain">
+<LABEL>Cognitive domain_2</LABEL>
+<POS x="260" y="1330"/>
+<SUB_L label="Cognitive domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="s-time">
+<LABEL>s-time_3</LABEL>
+<POS x="180" y="1320"/>
+<SUB_L label="s-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="s-time">
+<LABEL>s-time_4</LABEL>
+<POS x="180" y="1320"/>
+<SUB_L label="s-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="internal state">
+<LABEL>internal state_1</LABEL>
+<POS x="180" y="1320"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/i" num="1.." role="participant" class_constraint="entity" rh_name="participant" value="entity_17">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="occurrent$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="internal state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_17</LABEL>
+<POS x="260" y="1330"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="e-time">
+<LABEL>e-time_4</LABEL>
+<POS x="180" y="1320"/>
+<SUB_L label="e-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="e-time">
+<LABEL>e-time_5</LABEL>
+<POS x="180" y="1320"/>
+<SUB_L label="e-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="internal state">
+<LABEL>internal state_2</LABEL>
+<POS x="180" y="1320"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/i" num="1.." role="participant" class_constraint="entity" rh_name="participant" value="entity_18">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="occurrent$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="internal state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_18</LABEL>
+<POS x="260" y="1330"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="proposition">
+<LABEL>proposition_1</LABEL>
+<POS x="180" y="1320"/>
+<SUB_L label="proposition_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_17</LABEL>
+<POS x="180" y="1320"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="230" y="1320"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="representation">
+<LABEL>representation_1</LABEL>
+<POS x="168" y="1320"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="form" class_constraint="representation form" rh_name="" value="representation form_1">
+<POS x="218" y="1320"/>
+<PARENT_SLOT slot="representation$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="content" class_constraint="proposition" rh_name="" value="">
+<POS x="218" y="1320"/>
+<PARENT_SLOT slot="representation$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="representation_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="representation form">
+<LABEL>representation form_1</LABEL>
+<POS x="248" y="1330"/>
+<SUB_L label="representation form_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="action">
+<LABEL>action_2</LABEL>
+<POS x="948" y="1753"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="generic quality_3">
+<POS x="991" y="1788"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="Time interval_3">
+<POS x="991" y="1823"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="location" class_constraint="location" rh_name="" value="location_3">
+<POS x="991" y="1858"/>
+<PARENT_SLOT slot="process_1$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot4" kind="p/i" num="1.." role="doer" class_constraint="agent" rh_name="" value="agent_2">
+<POS x="988" y="1893"/>
+<PARENT_SLOT slot="action$slot2" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="initial state" class_constraint="state" rh_name="" value="state_9">
+<POS x="998" y="1893"/>
+<PARENT_SLOT slot="action$slot2%slot" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="initial time" class_constraint="s-time" rh_name="" value="s-time_1">
+<POS x="998" y="1893"/>
+<PARENT_SLOT slot="action$slot2%slot%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot2" kind="a/o" num="1" role="middle state" class_constraint="state" rh_name="" value="state_10">
+<POS x="998" y="1893"/>
+<PARENT_SLOT slot="action$slot2%slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot3" kind="a/o" num="1" role="terminal state" class_constraint="state" rh_name="" value="state_11">
+<POS x="998" y="1893"/>
+<PARENT_SLOT slot="action$slot2%slot3" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="terminal time" class_constraint="e-time" rh_name="" value="e-time_1">
+<POS x="998" y="1893"/>
+<PARENT_SLOT slot="action$slot2%slot3%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="action_Ins" />
+</INSTANCE>
+<INSTANCE class="Affective domain">
+<LABEL>Affective domain_2</LABEL>
+<POS x="0" y="0"/>
+<SUB_L label="Affective domain_Ins" />
+</INSTANCE>
+<INSTANCE class="Affective domain">
+<LABEL>Affective domain_3</LABEL>
+<POS x="0" y="0"/>
+<SUB_L label="Affective domain_Ins" />
+</INSTANCE>
+<INSTANCE class="Skill">
+<LABEL>Skill_4</LABEL>
+<POS x="0" y="0"/>
+<DEF>This is the skill4 for new information&lt;br&gt;</DEF>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="">
+<POS x="43" y="35"/>
+<PARENT_SLOT slot="What to learn$slot" />
+</SLOT>
+</SLOTS>
+<SUB_L label="Skill_Ins" />
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_Ins_11</LABEL>
+<SUB_L label="Learning domain_Ins" />
+</INSTANCE>
+<INSTANCE class="Know">
+<LABEL>Know_1</LABEL>
+<POS x="464" y="1400"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="generic quality_4">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="Time interval_4">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="location" class_constraint="location" rh_name="" value="location_4">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="process_1$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="a/o" num="1.." role="focus point" class_constraint="Any" rh_name="" value="Knowledge type_1">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="Cognitive process action$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot5" kind="p/i" num="1" role="actor" class_constraint="Human" rh_name="" value="Human_2">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="Know$slot" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="initial state" class_constraint="state" rh_name="" value="state_12">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="single actor action$slot2%slot" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="initial time" class_constraint="s-time" rh_name="" value="s-time_2">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="single actor action$slot2%slot%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot2" kind="a/o" num="1" role="middle state" class_constraint="state" rh_name="" value="state_13">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="action/behavior$slot2%slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="a/o" num="1" role="terminal state" class_constraint="state" rh_name="" value="state_14">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="action/behavior$slot2%slot3" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="terminal time" class_constraint="e-time" rh_name="" value="e-time_2">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="action/behavior$slot2%slot3%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot4" kind="a/o" num="1" role="middle state" class_constraint="state" rh_name="" value="state_15">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="process_1$slot2%slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-1" label="slot5" kind="a/o" num="1" role="terminal state" class_constraint="state" rh_name="" value="state_16">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="process_1$slot2%slot3" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="terminal time" class_constraint="e-time" rh_name="" value="e-time_3">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="process_1$slot2%slot3%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot6" kind="p/i" num="1.." role="object" class_constraint="representation" rh_name="Knowledge" value="representation_1">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="Know$slot2" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="type" class_constraint="Knowledge type" rh_name="" value="Knowledge type_1">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="Know$slot2%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot2" kind="a/o" num="1" role="type" class_constraint="Knowledge type" rh_name="" value="internal state_1">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="Know$slot2%slot" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="role" class_constraint="s-time" rh_name="" value="s-time_3">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="cognitive action$slot22%slot%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot2" kind="a/o" num="1" role="initial time" class_constraint="s-time" rh_name="" value="s-time_4">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="process_1$slot2%slot%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="a/o" num="1" role="terminal state" class_constraint="internal state" rh_name="" value="internal state_2">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="Know$slot2%slot3" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="role" class_constraint="e-time" rh_name="" value="e-time_4">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="cognitive action$slot22%slot3%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot2" kind="a/o" num="1" role="terminal time" class_constraint="e-time" rh_name="" value="e-time_5">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="process_1$slot2%slot3%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT type="R2-2" label="slot4" kind="a/o" num="1" role="initial state" class_constraint="internal state" rh_name="" value="proposition_1">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="Know$slot2%slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot5" kind="a/o" num="1" role="middle state" class_constraint="state" rh_name="" value="state_17">
+<POS x="514" y="1400"/>
+<PARENT_SLOT slot="process_1$slot2%slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<SUB_L label="Know_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="generic quality">
+<LABEL>generic quality_5</LABEL>
+<POS x="173" y="1395"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_19">
+<POS x="223" y="1395"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="generic quality_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_19</LABEL>
+<POS x="253" y="1405"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Time interval">
+<LABEL>Time interval_5</LABEL>
+<POS x="173" y="1430"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="starting time" class_constraint="Clock time" rh_name="" value="Clock time_9">
+<POS x="223" y="1430"/>
+<PARENT_SLOT slot="Time interval$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="ending time" class_constraint="Clock time" rh_name="" value="Clock time_10">
+<POS x="223" y="1430"/>
+<PARENT_SLOT slot="Time interval$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Time interval_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_9</LABEL>
+<POS x="253" y="1440"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Clock time">
+<LABEL>Clock time_10</LABEL>
+<POS x="253" y="1440"/>
+<SUB_L label="Clock time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="location">
+<LABEL>location_5</LABEL>
+<POS x="174" y="1465"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_20">
+<POS x="224" y="1465"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="value" class_constraint="p-space" rh_name="" value="">
+<POS x="224" y="1465"/>
+<PARENT_SLOT slot="location$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="location_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_20</LABEL>
+<POS x="254" y="1475"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="agent">
+<LABEL>agent_3</LABEL>
+<POS x="170" y="1500"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="220" y="1500"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="substance_5">
+<POS x="220" y="1500"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1" role="intention" class_constraint="intention" rh_name="" value="intention_5">
+<POS x="220" y="1500"/>
+<PARENT_SLOT slot="agent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="p/o" num="1" role="mind" class_constraint="mind" rh_name="" value="mind_5">
+<POS x="220" y="1500"/>
+<PARENT_SLOT slot="agent$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="agent_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="substance">
+<LABEL>substance_5</LABEL>
+<POS x="250" y="1510"/>
+<SUB_L label="substance_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="intention">
+<LABEL>intention_5</LABEL>
+<POS x="250" y="1510"/>
+<SUB_L label="intention_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="mind">
+<LABEL>mind_5</LABEL>
+<POS x="250" y="1510"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="function" class_constraint="decision making" rh_name="" value="decision making_5">
+<POS x="300" y="1510"/>
+<PARENT_SLOT slot="mind$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="mind_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="decision making">
+<LABEL>decision making_5</LABEL>
+<POS x="330" y="1520"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_21">
+<POS x="380" y="1520"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="decision making_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_21</LABEL>
+<POS x="410" y="1530"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="object">
+<LABEL>object_1</LABEL>
+<POS x="170" y="1535"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="220" y="1535"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="substance_6">
+<POS x="220" y="1535"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="object_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="substance">
+<LABEL>substance_6</LABEL>
+<POS x="250" y="1545"/>
+<SUB_L label="substance_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="action">
+<LABEL>action_3</LABEL>
+<POS x="174" y="1570"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="224" y="1570"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="224" y="1570"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="location" class_constraint="location" rh_name="" value="">
+<POS x="224" y="1570"/>
+<PARENT_SLOT slot="process_1$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot4" kind="p/i" num="1.." role="doer" class_constraint="agent" rh_name="" value="">
+<POS x="224" y="1570"/>
+<PARENT_SLOT slot="action$slot2" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="initial state" class_constraint="state" rh_name="" value="state_18">
+<POS x="224" y="1570"/>
+<PARENT_SLOT slot="action$slot2%slot" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="initial time" class_constraint="s-time" rh_name="" value="s-time_1">
+<POS x="224" y="1570"/>
+<PARENT_SLOT slot="action$slot2%slot%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot2" kind="a/o" num="1" role="middle state" class_constraint="state" rh_name="" value="state_19">
+<POS x="224" y="1570"/>
+<PARENT_SLOT slot="action$slot2%slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot3" kind="a/o" num="1" role="terminal state" class_constraint="state" rh_name="" value="state_20">
+<POS x="224" y="1570"/>
+<PARENT_SLOT slot="action$slot2%slot3" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="terminal time" class_constraint="e-time" rh_name="" value="e-time_1">
+<POS x="224" y="1570"/>
+<PARENT_SLOT slot="action$slot2%slot3%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="action_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="s-time">
+<LABEL>s-time_1</LABEL>
+<POS x="254" y="1580"/>
+<SUB_L label="s-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_18</LABEL>
+<POS x="254" y="1580"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="304" y="1580"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="304" y="1580"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="304" y="1580"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_19</LABEL>
+<POS x="254" y="1580"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="304" y="1580"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="304" y="1580"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="304" y="1580"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="e-time">
+<LABEL>e-time_1</LABEL>
+<POS x="254" y="1580"/>
+<SUB_L label="e-time_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_20</LABEL>
+<POS x="254" y="1580"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="304" y="1580"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="304" y="1580"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="304" y="1580"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="state">
+<LABEL>state_21</LABEL>
+<POS x="174" y="1605"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="224" y="1605"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="224" y="1605"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="1" role="holder" class_constraint="continuant | process" rh_name="" value="">
+<POS x="224" y="1605"/>
+<PARENT_SLOT slot="state$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="state_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Human">
+<LABEL>Human_3</LABEL>
+<POS x="254" y="1650"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="substance_7">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1" role="intention" class_constraint="intention" rh_name="" value="intention_6">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="agent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="p/o" num="1" role="mind" class_constraint="mind" rh_name="" value="mind_6">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="agent$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot5" kind="a/o" num="1" role="NoOfAgent" class_constraint="Integer" rh_name="" value="Integer_3">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="singleton agent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot6" kind="p/o" num="1" role="body" class_constraint="functional" rh_name="" value="functional_3">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="singleton agent$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Human_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="substance">
+<LABEL>substance_7</LABEL>
+<POS x="334" y="1660"/>
+<SUB_L label="substance_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="intention">
+<LABEL>intention_6</LABEL>
+<POS x="334" y="1660"/>
+<SUB_L label="intention_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="mind">
+<LABEL>mind_6</LABEL>
+<POS x="334" y="1660"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="function" class_constraint="decision making" rh_name="" value="decision making_6">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="mind$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="mind_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="decision making">
+<LABEL>decision making_6</LABEL>
+<POS x="414" y="1670"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_22">
+<POS x="464" y="1670"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="decision making_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_22</LABEL>
+<POS x="494" y="1680"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Integer">
+<LABEL>Integer_3</LABEL>
+<POS x="334" y="1660"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="numerator" class_constraint="Integer" rh_name="" value="">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="Rational number$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="denominator" class_constraint="Integer" rh_name="" value="">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="Rational number$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Integer_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="functional">
+<LABEL>functional_3</LABEL>
+<POS x="334" y="1660"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="function" class_constraint="function" rh_name="" value="function_3">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="functional$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="a/o" num="1" role="n or a" class_constraint="natural/artificial_2" rh_name="" value="natural/artificial_2_3">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="functional$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="functional_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="function">
+<LABEL>function_3</LABEL>
+<POS x="414" y="1670"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_23">
+<POS x="464" y="1670"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="function_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_23</LABEL>
+<POS x="494" y="1680"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="natural/artificial_2">
+<LABEL>natural/artificial_2_3</LABEL>
+<POS x="414" y="1670"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_24">
+<POS x="464" y="1670"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="natural/artificial_2_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_24</LABEL>
+<POS x="494" y="1680"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Date">
+<LABEL>Date_1</LABEL>
+<POS x="254" y="1650"/>
+<SUB_L label="Date_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Evidence">
+<LABEL>Evidence_1</LABEL>
+<POS x="254" y="1650"/>
+<SUB_L label="Evidence_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Taxonomy">
+<LABEL>Taxonomy_1</LABEL>
+<POS x="254" y="1650"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="used for" class_constraint="action" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="representation-primary$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Taxonomy_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="type of learner">
+<LABEL>type of learner_1</LABEL>
+<POS x="254" y="1650"/>
+<SUB_L label="type of learner_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Subject matter">
+<LABEL>Subject matter_1</LABEL>
+<POS x="254" y="1650"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="used for" class_constraint="action" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="representation-primary$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Subject matter_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning">
+<LABEL>Learning_1</LABEL>
+<POS x="254" y="1650"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="learner" class_constraint="agent" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="Learning$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="Learning outcome" class_constraint="state | Learner related attribute" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="Learning$slot2" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="p/o" num="1" role="before learning" class_constraint="state | Learner related attribute" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="Learning$slot2%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot2" kind="p/o" num="1" role="after learning" class_constraint="state | Learner related attribute" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="Learning$slot2%slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1.." role="Learning event" class_constraint="Learning event" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="Learning$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="a/o" num="1" role="learning model" class_constraint="Knowledge model" rh_name="" value="Knowledge model_1">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="Learning$slot4" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot5" kind="a/o" num="1" role="learning goal" class_constraint="state" rh_name="Learning goal" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="Learning$slot5" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="holder" class_constraint="agent" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="Learning$slot5%State:slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="R2-2" label="slot2" kind="a/o" num="1" role="object" class_constraint="What to learn" rh_name="" value="What to learn_1">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="Learning$slot5%State:slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Learning_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Knowledge model">
+<LABEL>Knowledge model_1</LABEL>
+<POS x="334" y="1660"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="style" class_constraint="Style" rh_name="" value="Style_1">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="Knowledge model$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="attribute" class_constraint="Attribute of knowledge model" rh_name="" value="Attribute of knowledge model_1">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="Knowledge model$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="Transferability" class_constraint="Transferability" rh_name="" value="Transferability_1">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="Knowledge model$slot4" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="p/o" num="1" role="mechanism" class_constraint="Learning mechanism" rh_name="" value="Learning mechanism_1">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="Knowledge model$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Knowledge model_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Style">
+<LABEL>Style_1</LABEL>
+<POS x="414" y="1670"/>
+<SUB_L label="Style_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Attribute of knowledge model">
+<LABEL>Attribute of knowledge model_1</LABEL>
+<POS x="414" y="1670"/>
+<SUB_L label="Attribute of knowledge model_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Transferability">
+<LABEL>Transferability_1</LABEL>
+<POS x="414" y="1670"/>
+<SUB_L label="Transferability_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning mechanism">
+<LABEL>Learning mechanism_1</LABEL>
+<POS x="414" y="1670"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="464" y="1670"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="substance_8">
+<POS x="464" y="1670"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="function" class_constraint="function" rh_name="" value="function_4">
+<POS x="464" y="1670"/>
+<PARENT_SLOT slot="functional$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="a/o" num="1" role="n or a" class_constraint="natural/artificial_2" rh_name="" value="natural/artificial_2_4">
+<POS x="464" y="1670"/>
+<PARENT_SLOT slot="functional$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot5" kind="a/o" num="1" role="designer" class_constraint="agent" rh_name="" value="">
+<POS x="464" y="1670"/>
+<PARENT_SLOT slot="artifact$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Learning mechanism_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="substance">
+<LABEL>substance_8</LABEL>
+<POS x="494" y="1680"/>
+<SUB_L label="substance_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="function">
+<LABEL>function_4</LABEL>
+<POS x="494" y="1680"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_25">
+<POS x="544" y="1680"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="function_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_25</LABEL>
+<POS x="574" y="1690"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="natural/artificial_2">
+<LABEL>natural/artificial_2_4</LABEL>
+<POS x="494" y="1680"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_26">
+<POS x="544" y="1680"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="natural/artificial_2_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_26</LABEL>
+<POS x="574" y="1690"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="What to learn">
+<LABEL>What to learn_1</LABEL>
+<POS x="334" y="1660"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_12">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="What to learn_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_12</LABEL>
+<POS x="414" y="1670"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning context">
+<LABEL>Learning context_1</LABEL>
+<POS x="254" y="1650"/>
+<SUB_L label="Learning context_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="substance">
+<LABEL>substance_9</LABEL>
+<POS x="334" y="1660"/>
+<SUB_L label="substance_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="function">
+<LABEL>function_5</LABEL>
+<POS x="334" y="1660"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_27">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="function_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_27</LABEL>
+<POS x="414" y="1670"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="natural/artificial_2">
+<LABEL>natural/artificial_2_5</LABEL>
+<POS x="334" y="1660"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="on what" class_constraint="entity" rh_name="" value="entity_28">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="dependent entity$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="natural/artificial_2_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="entity">
+<LABEL>entity_28</LABEL>
+<POS x="414" y="1670"/>
+<SUB_L label="entity_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Hypothesis">
+<LABEL>Hypothesis_1</LABEL>
+<POS x="254" y="1650"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="used for" class_constraint="action" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="representation-primary$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Hypothesis_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="What to learn">
+<LABEL>What to learn_2</LABEL>
+<POS x="254" y="1650"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_13">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="What to learn_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_13</LABEL>
+<POS x="334" y="1660"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning principle">
+<LABEL>Learning principle_1</LABEL>
+<POS x="254" y="1650"/>
+<SUB_L label="Learning principle_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="What to learn">
+<LABEL>What to learn_3</LABEL>
+<POS x="254" y="1650"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_14">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="What to learn_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_14</LABEL>
+<POS x="334" y="1660"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="What to learn">
+<LABEL>What to learn_4</LABEL>
+<POS x="254" y="1650"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1" role="learning domain" class_constraint="Learning domain" rh_name="" value="Learning domain_15">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="What to learn$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="What to learn_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning domain">
+<LABEL>Learning domain_15</LABEL>
+<POS x="334" y="1660"/>
+<SUB_L label="Learning domain_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="learning goal">
+<LABEL>learning goal_1</LABEL>
+<POS x="254" y="1650"/>
+<SUB_L label="learning goal_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Principle">
+<LABEL>Principle_1</LABEL>
+<POS x="254" y="1650"/>
+<SUB_L label="Principle_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="situation">
+<LABEL>situation_1</LABEL>
+<POS x="254" y="1650"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot3" kind="p/i" num="2.." role="participant" class_constraint="physical" rh_name="" value="physical_1">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="situation$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot4" kind="p/i" num="2.." role="participant" class_constraint="physical" rh_name="" value="physical_2">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="situation$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot5" kind="a/o" num="1" role="location" class_constraint="location" rh_name="" value="">
+<POS x="304" y="1650"/>
+<PARENT_SLOT slot="situation$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="situation_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="physical">
+<LABEL>physical_1</LABEL>
+<POS x="334" y="1660"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="physical_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="physical">
+<LABEL>physical_2</LABEL>
+<POS x="334" y="1660"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="384" y="1660"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="physical_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning paradigm">
+<LABEL>Learning paradigm_1</LABEL>
+<POS x="254" y="1650"/>
+<SUB_L label="Learning paradigm_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning stage">
+<LABEL>Learning stage_1</LABEL>
+<POS x="496" y="1825"/>
+<SUB_L label="Learning stage_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning stage">
+<LABEL>Learning stage_2</LABEL>
+<POS x="496" y="1825"/>
+<SUB_L label="Learning stage_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="I-goal">
+<LABEL>I-goal_1</LABEL>
+<POS x="511" y="1944"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="p/o" num="1" role="Initial state" class_constraint="Learning stage" rh_name="" value="Learning stage_1">
+<POS x="555" y="1979"/>
+<PARENT_SLOT slot="I-goal$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1" role="Goal state" class_constraint="Learning stage" rh_name="" value="Learning stage_2">
+<POS x="555" y="2014"/>
+<PARENT_SLOT slot="I-goal$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="I-goal_Ins" />
+</INSTANCE>
+<INSTANCE class="Learning event">
+<LABEL>Learning event_1</LABEL>
+<POS x="74" y="1837"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="generic quality_5">
+<POS x="117" y="1872"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="time" class_constraint="Time interval" rh_name="" value="Time interval_5">
+<POS x="117" y="1907"/>
+<PARENT_SLOT slot="occurrent$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="p/o" num="1" role="location" class_constraint="location" rh_name="" value="location_5">
+<POS x="118" y="1942"/>
+<PARENT_SLOT slot="event$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot4" kind="p/i" num="1.." role="Learner" class_constraint="agent" rh_name="Learner" value="agent_3">
+<POS x="114" y="1977"/>
+<PARENT_SLOT slot="Learning event$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot5" kind="p/i" num="1.." role="Learning object " class_constraint="object" rh_name="Learning object" value="object_1">
+<POS x="114" y="2012"/>
+<PARENT_SLOT slot="Learning event$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot6" kind="p/o" num="1.." role="Learning action" class_constraint="action" rh_name="Learning action" value="action_3">
+<POS x="118" y="2047"/>
+<PARENT_SLOT slot="Learning event$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot7" kind="p/o" num="1.." role="Learning condition" class_constraint="state" rh_name="Learning condition" value="state_21">
+<POS x="118" y="2082"/>
+<PARENT_SLOT slot="Learning event$slot4" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot8" kind="p/o" num="1.." role="Learning theory" class_constraint="Learning theory" rh_name="" value="Learning theory_1">
+<POS x="118" y="2117"/>
+<PARENT_SLOT slot="Learning event$slot5" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot9" kind="p/o" num="1.." role="Benefits for the learner" class_constraint="I-goal" rh_name="" value="I-goal_1">
+<POS x="118" y="2152"/>
+<PARENT_SLOT slot="Learning event$slot6" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Learning event_Ins" />
+</INSTANCE>
+<INSTANCE class="Learning mechanism">
+<LABEL>Learning mechanism_2</LABEL>
+<POS x="326" y="1715"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="quality role" class_constraint="generic quality" rh_name="quality instance" value="">
+<POS x="376" y="1715"/>
+<PARENT_SLOT slot="physical$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="p/o" num="1.." role="material" class_constraint="substance" rh_name="" value="substance_9">
+<POS x="376" y="1715"/>
+<PARENT_SLOT slot="object$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="function" class_constraint="function" rh_name="" value="function_5">
+<POS x="376" y="1715"/>
+<PARENT_SLOT slot="functional$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="a/o" num="1" role="n or a" class_constraint="natural/artificial_2" rh_name="" value="natural/artificial_2_5">
+<POS x="376" y="1715"/>
+<PARENT_SLOT slot="functional$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot5" kind="a/o" num="1" role="designer" class_constraint="agent" rh_name="" value="">
+<POS x="376" y="1715"/>
+<PARENT_SLOT slot="artifact$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Learning mechanism_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+<INSTANCE class="Learning theory">
+<LABEL>Learning theory_1</LABEL>
+<POS x="88" y="1686"/>
+<SLOTS>
+<SLOT type="NW" label="slot1" kind="a/o" num="1.." role="creator" class_constraint="Human" rh_name="" value="Human_3">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Theory$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot2" kind="a/o" num="1" role="date created" class_constraint="Date" rh_name="" value="Date_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Theory$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot3" kind="a/o" num="1" role="evidence" class_constraint="Evidence" rh_name="" value="Evidence_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Theory$slot7" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot4" kind="p/o" num="1" role="taxonomy" class_constraint="Taxonomy" rh_name="" value="Taxonomy_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Theory$slot4" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot5" kind="a/o" num="1" role="reference" class_constraint="string" rh_name="" value="">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Theory$slot11" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot6" kind="p/o" num="1" role="descriptive part" class_constraint="Any" rh_name="" value="">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Theory$slot5" />
+<SLOTS>
+<SLOT type="R2-1" label="slot1" kind="p/o" num="1.." role="concept" class_constraint="Any" rh_name="" value="">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Theory$slot5%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot7" kind="p/o" num="1" role="prescriptive part" class_constraint="Any" rh_name="" value="">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Theory$slot10" />
+<SLOTS>
+<SLOT type="R2-1" label="slot1" kind="p/o" num="1.." role="way knowledge" class_constraint="Any" rh_name="" value="">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Theory$slot10%slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot8" kind="a/o" num="1" role="type of learner" class_constraint="type of learner" rh_name="" value="type of learner_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot5" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot9" kind="a/o" num="1" role="of what" class_constraint="Learning" rh_name="" value="Learning_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot6" />
+<SLOTS>
+<SLOT type="R2-2" label="slot1" kind="a/o" num="1" role="focus" class_constraint="Subject matter" rh_name="" value="Subject matter_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot6%slot4" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot10" kind="a/o" num="1" role="context" class_constraint="Learning context" rh_name="" value="Learning context_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot7" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot11" kind="p/o" num="1" role="learning mechanism" class_constraint="Learning mechanism" rh_name="" value="Learning mechanism_2">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot8" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot12" kind="p/o" num="1.." role="hypothesis abc" class_constraint="Hypothesis" rh_name="" value="Hypothesis_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot82" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot13" kind="a/o" num="1" role="Domain-topic" class_constraint="What to learn" rh_name="" value="What to learn_2">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot3" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="OR" label="slot14" kind="a/o" num="1" role="Goal of theory" class_constraint="state" rh_name="" value="">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot9" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot15" kind="a/o" num="1" role="principle" class_constraint="Learning principle" rh_name="" value="Learning principle_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot16" kind="p/o" num="1" role="knowledge type" class_constraint="What to learn" rh_name="" value="What to learn_3">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot2" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot17" kind="p/o" num="1" role="skill" class_constraint="What to learn" rh_name="" value="What to learn_4">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot10" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot18" kind="p/o" num="1" role="learning goal" class_constraint="learning goal" rh_name="" value="learning goal_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot11" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot19" kind="p/o" num="1" role="Type of action" class_constraint="action" rh_name="" value="">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot12" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot20" kind="p/o" num="1" role="Assessment" class_constraint="Principle" rh_name="" value="Principle_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot13" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot21" kind="p/o" num="1" role="Learning situation" class_constraint="situation" rh_name="" value="situation_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot14" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+<SLOT type="NW" label="slot22" kind="a/o" num="1" role="paradigm" class_constraint="Learning paradigm" rh_name="" value="Learning paradigm_1">
+<POS x="138" y="1686"/>
+<PARENT_SLOT slot="Learning theory$slot4" />
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+<SUB_L label="Learning theory_Ins" />
+<PART_TREE>close</PART_TREE>
+</INSTANCE>
+</INSTANCES>
+</OE_FILE_INS>
